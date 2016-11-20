@@ -1,1 +1,27 @@
-<p>This is the partial for view 1.</p>
+<!--<p>This is the partial for view 1.</p>
+     <form class="list list-inset" id="login_register_form">
+          <label class="item item-input" id="login_email" >
+              <input type="text" placeholder="Email" ng-model="email">
+          </label>
+          <label class="item item-input" id="login_password" >
+              <input type="password" placeholder="Password" ng-model="password">
+          </label>
+      </form>
+        <button class="button button-block button-positive" id="login_bouton_login" ng-click="login(email,password)">Login</button>
+       <button class="button button-small button-block button-stable" id="login_bouton_register" ng-click="register()">Register</button>
+       <button class="button button-small button-clear" id="login_bouton_password" ng-click="reset()">Forgotten Password</button>
+-->
+
+<div class = "container">
+	<div class="wrapper">
+		<form name="Login_Form" class="form-signin" id="login_register_form">       
+		    <h3 class="form-signin-heading">Welcome! Please Sign In</h3>
+			  <hr class="colorgraph"><br>
+			  
+			  <input type="text" class="form-control" placeholder="Email" ng-model="email" />
+			  <input type="password" class="form-control" placeholder="Password" ng-model="password"/>     		  
+			 
+			  <button class="btn btn-lg btn-primary btn-block"  id="login_bouton_login" ng-click="login(email,password)" type="Submit">Login</button>  			
+		</form>			
+	</div>
+</div>

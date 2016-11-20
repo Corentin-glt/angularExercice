@@ -9,7 +9,8 @@ angular.module('myApp.view2', ['ngRoute'])
   });
 }])
 
-.controller('View2Ctrl', ['$scope', function($scope) {
+.controller('View2Ctrl', ['$scope', function($scope, $state) {
   var vm = $scope;
   vm.name="les 3 Mousquetaires";
+
 }]);
