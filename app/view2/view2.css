@@ -1,0 +1,30 @@
+.navbar-inverse{
+  border-radius: 0px;
+}
+
+#serendip{
+  font-family: 'Century Gothic';
+  font-size: 30px;
+  color: #1fa67b;
+}
+
+.right-menu {
+  float:right;
+}
+
+.navbar-nav {
+  font-family: 'Century Gothic';
+  font-size: 20px;
+  color: #1fa67b;
+}
+
+.body{
+  background-image: url("connection_.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0;
+  margin-top: -10px;
+  min-height: 500px;
+  position: relative;
+}

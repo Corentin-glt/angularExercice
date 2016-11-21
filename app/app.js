@@ -6,6 +6,7 @@ angular.module('myApp', [
   'myApp.view1',
   'myApp.view2',
   'myApp.version'
+
 ]).
 config(['$stateProvider', '$urlRouterProvider', function( $stateProvider, $urlRouterProvider) {
   
@@ -18,6 +19,12 @@ config(['$stateProvider', '$urlRouterProvider', function( $stateProvider, $urlRo
   $stateProvider.state('view2', {
   	url:'/view2',
   	templateUrl: '/view2/view2.html',
+  	controller: 'View2Ctrl'
+  })
+
+  $stateProvider.state('profile', {
+  	url:'/profile',
+  	templateUrl: '/view2/profile.html',
   	controller: 'View2Ctrl'
   })
 
