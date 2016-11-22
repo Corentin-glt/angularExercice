@@ -25,7 +25,7 @@ config(['$stateProvider', '$urlRouterProvider', function( $stateProvider, $urlRo
   $stateProvider.state('profile', {
   	url:'/profile',
   	templateUrl: '/view2/profile.html',
-  	controller: 'View2Ctrl'
+  	controller: 'ProfileCtrl'
   })
 
   $urlRouterProvider.otherwise( '/view1')

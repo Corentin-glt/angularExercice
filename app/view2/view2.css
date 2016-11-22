@@ -2,10 +2,10 @@
   border-radius: 0px;
 }
 
-#serendip{
+.myangular{
   font-family: 'Century Gothic';
-  font-size: 30px;
-  color: #1fa67b;
+  font-size: 25px;
+  color:  #1E90FF;
 }
 
 .right-menu {
@@ -18,13 +18,22 @@
   color: #1fa67b;
 }
 
-.body{
-  background-image: url("connection_.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 50px 0;
-  margin-top: -10px;
-  min-height: 500px;
-  position: relative;
+.welcome {
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.alert-info {
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.myemail {
+  text-align: center;
+}
+
+.mypassword {
+  text-align: center;
 }
